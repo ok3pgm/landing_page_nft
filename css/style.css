@@ -1,0 +1,896 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #0C0C0C;
+}
+.ellipse {
+    position: absolute;
+    width: 478.68px;
+    height: 478.68px;
+    left: -256.23px;
+    top: -61.73px;
+    background: #D79F45;
+    opacity: 0.7;
+    filter: blur(349.405px);
+}
+.header {
+    padding: 45px 0 25px 0;
+    margin-bottom: 260px;
+  }
+  .container {
+    max-width: 1761px;
+    margin: 0 auto;
+  }
+  .header .container{
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    vertical-align: bottom;
+    margin-left: 50px;
+    margin-right: 511px;
+  }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu-item {
+    margin-right: 70px;
+    max-height: 25px;
+  }
+  .menu-item:last-of-type {
+    margin-right: 181.65px;
+  }
+  .menu-item a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.9643px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .menu-item a:hover {
+    border-bottom: 2px solid white;
+  }
+  .header-button {
+    cursor: pointer;
+    width: 220.12px;
+    height: 71.05px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.9643px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: 4.65873px solid #FFA503;
+    border-radius: 17.4702px;
+    background-color: #0C0C0C;
+  }
+  .header-button:hover {
+    box-shadow: 1px 1px 20px #FFA503;
+  }
+  .main {
+}
+.main .container {
+  margin-left: 13.5%;
+}
+.main_info {
+  display: flex;
+  flex-direction: column;
+}
+.main_info_text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55.9048px;
+  line-height: 66px;
+  color: #FFFFFF;
+  max-width: 605px;
+  margin-bottom: 60px;
+}
+.main_info_text_span {
+  color: #FFA503;
+}
+.main-info__email {
+  display: flex;
+  --color: #ffa503;
+  --transition-dur: 300ms;
+  max-width: 756px;
+  margin-bottom: 120px;
+}
+.main-info__input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  z-index: 0;
+}
+.main-info__input-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -2px 70px -2px -2px;
+  border: 4px solid var(--color);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  z-index: -1;
+  transition: border-color var(--transition-dur);
+}
+.main-info__input {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 24px 0 24px 24px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-family: inherit;
+  text-overflow: ellipsis;
+  color: #fdfdfd;
+}
+.main-info__input::placeholder {
+  color: #fdfdfd;
+}
+.main-info__input:focus,
+.main-info__input:active {
+  outline: none;
+}
+.main-info__decor {
+  stroke: var(--color);
+  stroke-width: 4px;
+  flex-shrink: 0;
+  transition: stroke var(--transition-dur);
+}
+.main-info__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  border: none;
+  padding: 0;
+  background: none;
+  margin-left: -32px;
+  outline: none;
+  pointer-events: none;
+}
+.main-info__button:hover {
+  cursor: pointer;
+}
+.main-info__button:focus .main-info__button-bg {
+  stroke: #fff;
+}
+.main-info__button-bg {
+  display: block;
+  color: var(--color);
+  fill: var(--color);
+  stroke: var(--color);
+  stroke-width: 4px;
+  transition: var(--transition-dur);
+  transition-property: currentcolor, fill, stroke;
+  filter: drop-shadow(0 0 128px currentcolor);
+}
+.main-info__button-shape {
+  pointer-events: all;
+}
+.main-info__button-icon {
+  position: absolute;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+.main_info_title {
+  margin-bottom: 26.4px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27.9524px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.main_info_icon-coins img:not(:last-of-type) {
+  margin-right: 42.93px;
+}
+.main_info_icon-coins img:hover {
+  transform: scale(1.2);
+}
+.main_img img{
+  width: 50%;
+  height: 115%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.title_second_screen h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27.9524px;
+  line-height: 33px;
+  color: #FFA503;
+  padding: 0 0 0 200px;
+  margin-bottom: 40.38px;
+}
+.second_screen .container {
+  padding: 140px 0 0 0;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  height: 535px;
+  width: 454px;
+  border-radius: 40px 40px 0 0;
+  max-width: 454.23px;
+  max-height: 567.2px;
+  position: relative;
+  display: flex;
+}
+.card:not(:last-of-type) {
+  margin-right: 71.05px;
+}
+.card_img {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  transition: 0.2s;
+}
+.card_info {
+  position: relative;
+  width: 100%;
+  height: 152px;
+  top: 71%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-weight: 400;
+  line-height: 150%;
+  background: linear-gradient(137.43deg, rgba(255, 255, 255, 0.5) 3.89%, rgba(255, 255, 255, 0.2) 100%);
+  border-top: 1.16468px solid #FFFFFF;
+  backdrop-filter: blur(11.6468px);
+}
+.infoAndAuthor{
+  text-align: center;
+  max-height: 152px;
+  position: relative;
+  bottom: 20%;
+}
+.card_info_icons{
+  margin-bottom: 21px;
+  position: relative;
+}
+.card_info_name{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.9524px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-bottom: 13.6px;
+}
+.card_info_author{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.3056px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.purchase {
+  display: flex;
+  flex-direction: column;
+}
+.purchase_button {
+  width: 135.1px;
+  height: 41.93px;
+  border: 2.32937px solid #FFFFFF;
+  border-radius: 5.82341px; 
+  background: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3056px;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.purchase_button:hover {
+  box-shadow: 1px 1px 20px #FFFFFF;
+}
+.eth {
+  display: flex;
+  flex-wrap: nowrap;
+  max-height: 33px;
+  max-width: 150px;
+  margin-bottom: 20.5px;
+  margin-top: 25.62px;
+}
+.eth h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.9524px;
+  line-height: 33px;
+  color: #FFFFFF;
+  }
+.eth img {
+  height: 31.61px;
+  width: 31.61px;
+}
+.menu-burger {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  display: none;
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 4.5px solid white;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-top {
+  top: 0;
+}
+.menu-middle {
+  top: 14px;
+}
+.menu-bottom {
+  top: 28px;
+}
+.menu-top-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+  opacity: 0;
+}
+.menu-bottom-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
+}
+.menu-hamburg-active {
+  display: none;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.menu-hamburg-active ul {
+  list-style-type: none;
+}
+
+@media (max-width: 1680px) {
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+ }
+ @media (max-width: 1550px) {
+  .card {
+    height: 500px;
+    width: 400px;
+  }
+  .card:not(:last-of-type) {
+    margin-right: 55.05px;
+}
+  .container {
+    width: 100%;
+    margin: 0 ;
+  }
+  .main_img img{
+    width: 50%;
+    height: 115%;
+  }
+  .logo {
+    width: 100px;
+    margin-right: 300px;
+  }
+ }
+ @media (max-width: 1400px) {
+  .card {
+    height: 450px;
+    width: 340px;
+  }
+  .card:not(:last-of-type) {
+    margin-right: 30px;
+}
+  .main_info_icon-coins img {
+    width: 55px;
+    height: 55px;
+  }
+  .main_info_icon-coins img:not(:last-of-type) {
+    margin-right: 30px;
+  }
+  .main_info_title {
+    font-size: 25px;
+  }
+  .main_info_text {
+    margin-bottom: 45px;
+  }
+  .main-info__email {
+    max-width: 50%;
+    margin-bottom: 75px;
+  }
+  .header {
+    margin-bottom: 170px;
+  }
+  .main_info_text {
+    font-size: 40px;
+    max-width: 35%;
+  }
+  .ellipse {
+    width: 450px;
+    height: 450px;
+  }
+  .container {
+    width: 100%;
+  }
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+  
+ }
+ @media (max-width: 1210px) {
+  .purchase_button {
+    width: 115px;
+    height: 35px;
+    font-size: 17px;
+  }
+  .eth h1{
+    font-size: 24px;
+  }
+  .card_info_icons img{
+    width: 150px;
+    height: 58px;
+  }
+  .card_info_name{
+    font-size: 23px;
+  }
+  .card_info_author{
+    font-size: 13px;
+  }
+  .card {
+    height: 350px;
+    width: 300px;
+  }
+  .card:not(:last-of-type) {
+    margin-right: 30px;
+}
+  .header {
+    margin-bottom: 140px;
+  }
+  .main_info_icon-coins img {
+    width: 50px;
+    height: 50px;
+  }
+  .main_info_icon-coins img:not(:last-of-type) {
+    margin-right: 25px;
+  }
+  .main_info_text {
+    font-size: 35px;
+    max-width: 35%;
+  }
+  .main_info_title {
+    font-size: 22px;
+  }
+  .ellipse {
+    width: 435px;
+    height: 435px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 ;
+  }
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+  .logo {
+    width: 100px;
+    margin-right: 170px;
+  }
+  .menu-item:last-of-type{
+    margin-right: 100px;
+  }
+  .main-info__input {
+    font-size: 20px;
+  }
+ }
+ @media (max-width: 1000px) {
+  .purchase_button {
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .eth h1{
+    font-size: 20px;
+  }
+  .card_info_icons img{
+    width: 120px;
+    height: 48px;
+  }
+  .card_info_name{
+    font-size: 20px;
+  }
+  .card_info_author{
+    font-size: 10px;
+  }
+  .card {
+    height: 290px;
+    width: 245px;
+  }
+  .card:not(:last-of-type) {
+    margin-right: 20px;
+}
+  .main_info_title{
+    font-size: 20px;
+  }
+  .main_info_icon-coins img:not(:last-of-type) {
+    margin-right: 20px;
+  }
+  .main_info_icon-coins img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-info__input-wrap::before{
+    inset: -2px 64px -2px -2px;
+  }
+  .main-info__decor {
+    height: 65px;
+  }
+  .main-info__button-bg{
+    height: 65px;
+    width: 155px;
+  }
+  .main_info_text {
+    font-size: 30px;
+    max-width: 35%;
+    line-height: 3rem;
+  }
+  .main-info__input {
+    font-size: 14px;
+  }
+  .ellipse {
+    width: 410px;
+    height: 410px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 ;
+  }
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+  .header-button{
+    height: 55px;
+    width: 190px;
+  }
+  .logo {
+    width: 90px;
+    margin-right: 90px;
+  }
+  .menu-item{
+    margin-right: 40px;
+  }
+  .menu-item:last-of-type{
+    margin-right: 60px;
+  }
+ }
+ @media (max-width: 800px) {
+  .eth {
+    display: flex;
+    flex-wrap: nowrap;
+    max-height: 33px;
+    max-width: 150px;
+    margin-bottom: 20.5px;
+    margin-top: 25.62px;
+  }
+  .eth h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.9524px;
+    line-height: 33px;
+    color: #FFFFFF;
+    }
+  .card_info_icons{
+    margin-bottom: 21px;
+    position: relative;
+  }
+  .card_info_name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.9524px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 13.6px;
+  }
+  .card_info_author{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3056px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+  .purchase {
+    display: flex;
+    flex-direction: column;
+  }
+  .purchase_button {
+    width: 135.1px;
+    height: 41.93px;
+    border: 2.32937px solid #FFFFFF;
+    border-radius: 5.82341px; 
+    background: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.3056px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .card {
+    height: 450px;
+    width: 340px;
+    margin-bottom: 70px;
+  }
+  .card:not(:last-of-type) {
+    margin-right: 0;
+  }
+  .title_second_screen h1{
+    padding: 0;
+    text-align: center;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_info_title{
+    font-size: 17px;
+  }
+  .main_info_icon-coins img:not(:last-of-type) {
+    margin-right: 15px;
+  }
+  .main_info_icon-coins img{
+    width: 38px;
+    height: 38px;
+  }
+  .second_screen .container{
+    padding: 90px 0 0 0;
+  }
+  .main-info__email{
+    margin-bottom: 55px;
+  }
+  .header{
+    margin-bottom: 110px;
+  }
+  .main-info__input {
+    font-size: 12px;
+  }
+  .main-info__input-wrap::before{
+    inset: 5px 55px 4px -2px;
+  }
+  .main-info__decor {
+    height: 50px;
+  }
+  .main-info__button-bg{
+    width: 125px;
+    height: 50px;
+  }
+  .main_info_text {
+    font-size: 23px;
+    max-width: 40%;
+    margin-bottom: 25px;
+    line-height: 2.5rem;
+  }
+  .ellipse {
+    width: 310px;
+    height: 310px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 ;
+  }
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+  .header-button{
+    height: 55px;
+    width: 130px;
+    font-size: 20px;
+  }
+  .logo {
+    height: 45px;
+    width: 80px;
+    margin-right: 90px;
+  }
+  .menu-item{
+    margin-right: 30px;
+  }
+  .menu-item a{
+    font-size: 17px;
+  }
+  .menu-item:last-of-type{
+    margin-right: 30px;
+  }
+ }
+ @media (max-width: 600px) {
+  .main-info__input{
+    margin: 10px 0 10px 10px;
+  }
+  .main_info_title{
+    font-size: 15px;
+  }
+  .main_info_icon-coins img:not(:last-of-type) {
+    margin-right: 9px;
+  }
+  .main_info_icon-coins img{
+    width: 27px;
+    height: 27px;
+  }
+  .main-info__input {
+    font-size: 6.5px;
+  }
+  .main-info__button img {
+    position: absolute;
+    margin-left: 1rem;
+    font-size: 1rem;
+    top: -50%;
+  }
+  .main-info__input-wrap::before {
+    inset: -2px 47px -2px -2px;
+}
+  .main-info__decor {
+    height: 35px;
+  }
+  .main-info__button-bg{
+    width: 95px;
+    height: 35px;
+  }
+  .main_info_text {
+    font-size: 16px;
+    max-width: 42%;
+    margin-bottom: 20px;
+    line-height: 2rem;
+  }
+  .ellipse {
+    width: 280px;
+    height: 280px;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .header .container {
+    align-items: flex-start;
+  }
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+  .header-button{
+    height: 45px;
+    width: 110px;
+    font-size: 19px;
+  }
+  .logo {
+    height: 35px;
+    width: 50px;
+    margin: 0;
+    margin-right: 110px;
+  }
+  .menu {
+    top: 5%;
+    position: relative;
+  }
+  .menu-item{
+    margin-right: 15px;
+  }
+  .menu-item a{
+    font-size: 15px;
+  }
+  .menu-item:last-of-type{
+    margin-right: 15px;
+  }
+  .main_img img{
+    width: 300px;
+  }
+ }
+ @media (max-width: 510px) {
+  .main_info_text {
+    line-height: 2rem;
+  }
+  .card {
+    height: 400px;
+    width: 300px;
+  }
+  .main_info_title {
+    font-size: 12.5px;
+  }
+  .main_info_icon-coins img:not(:last-of-type) {
+    margin-right: 5.5px;
+  }
+  .main-info__button-bg{
+    width: 80px;
+  }
+  .main-info__input-wrap::before {
+    content: '';
+    position: absolute;
+    inset: -1px 48px -1px -2px;
+    border: 2px solid var(--color);
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    z-index: -1;
+    transition: border-color var(--transition-dur);  
+  }
+  
+  .main-info__decor {
+    stroke-width: 2px;
+  }
+  .main-info__input {
+    margin: 5px 0 5px 5px;
+}
+  .header .container {
+    justify-content: space-between;
+  }
+  .main_img img{
+    width: 50%;
+    height: 105%;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-burger{
+    display: block;
+    margin-right: 50px;
+  }
+  .menu-hamburg-active {
+    justify-content: center;
+    text-align: center;
+  }
+  .menu-hamburg-active .menu-item a{
+    font-size: 11px;
+  }
+  .menu-hamburg-active .header-button{
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+    border: 2px solid #FFA503;
+  }
+  .menu-hamburg-active .header-button:hover {
+    box-shadow: 1px 1px 5px #FFA503;
+  }
+ } 
